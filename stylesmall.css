@@ -1,6 +1,7 @@
 @media (max-width:858px){
   .header{font-size: medium;
-  background-color: #646464;}
+  background-color: #646464;
+  }
   #check {
     display: none;
     } 
