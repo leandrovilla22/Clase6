@@ -1,0 +1,153 @@
+
+@media (max-width:1926px)
+{
+    .header {
+        background-color: #7a7878;
+        padding: 5px;
+        align-content: center;
+        font-size: x-large;
+        
+      }
+      body{
+        background-color: antiquewhite;
+      }
+    h1{
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(119, 191, 233);
+        
+      }
+      #check {
+        display: none;
+      }
+      
+      .enlace {
+        width: 40px;
+        height: 40px;
+        line-height: 80px;
+        margin-top: 20px;
+        position: absolute;
+        margin-left: 60%;
+        display: none;
+      }
+     
+      nav .menu {
+        display: flex;
+        list-style: none;
+        margin-left: 60%;
+        font-size: 25px;
+       
+        
+       
+      }
+      
+      nav .menu li {
+        position: relative;
+       
+      }
+      
+     .menu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        
+      }
+      
+      .submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f9f9f9;
+        padding: 10px;
+      }
+      
+      .menu li:hover .submenu {
+        display: block;
+       
+      }
+      li a.active, li a:hover{
+        background-color: bisque;
+        transition: .5s;
+      }
+    
+    .submenu li {
+        display: block;
+      }
+      
+    #leftcolumn{
+        flex: 1;
+        float: left;
+        width: 20%;
+        background-color: beige; 
+    }
+    #leftcolumn article{
+        height: 30%;
+         background-color: beige;  
+    }
+    #midtcolumn{
+        flex: 2;
+        float: left;
+        width: 60%;
+        /*background-color: rgb(236, 220, 245); */ 
+        text-align: center;
+       
+    }
+    #midtcolumn a{
+        color: black;
+        font-size: larger;
+        
+    }
+    #midtcolumn div{
+        height: 150px;
+        
+    }
+    #Futbol p{
+        font-style: normal;
+        color: #0e0d0d;
+        text-align: center;
+    }
+    #Futbol img{
+        width: 100%;
+        height: 50%;
+    }
+    #Basquet p{
+        background-image: url("celtics.jpg");
+    font-style: normal;
+    color: #f0f0f0;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 25px;
+    }
+    .footer {
+        background-color: #7a7878;
+        padding: 20px;
+        text-align: center;
+      }
+    .footer button{
+        width: 10px;
+        height: 10px;
+        
+    }
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .footer img{
+        width: 50px;
+        height: 50px;
+
+      }
+}
+
+ 
+
+
+ 
+  
